@@ -2,8 +2,6 @@ makeCacheMatrix <- function(x = matrix()) {
   # This sets the functions to invert the input matrix
   # The matrix is inverted using the solve() function
   # This assumes a square matrix
-  
-  
   m <- NULL
   get <- function() x
   setinv <- function(solve) m <<- solve
